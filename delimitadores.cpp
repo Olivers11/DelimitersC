@@ -33,7 +33,7 @@ void saveFile(vector<student> arr){
 	if(!file.fail()){
 		file << to_string(arr.size()) << DELMITADOR_CAMPO << "Total" << endl;
 		for(int i = 0; i < arr.size(); i++){
-			file << arr[i].name << DELMITADOR_CAMPO << to_string(arr[i].age) << SALTO;
+			file <<DELIMITADOR_ARCHIVO <<arr[i].name << DELMITADOR_CAMPO << to_string(arr[i].age) << DELIMITADOR_ARCHIVO << SALTO;
 		}
 		file.close();
 		cout << "donde!" << endl;

@@ -1,4 +1,4 @@
 3,Total
-Oliver,18
-Anyela,19
-Mario,21
+|Oliver,18|
+|Anyela,19|
+|Mario,21|
